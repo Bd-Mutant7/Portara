@@ -1,0 +1,13 @@
+{
+	"package_name": "port-scanner-app",
+	"package_org": "@henryjw",
+	"display_name": "Port Scanner",
+	"description": "Desktop app to scan for open TCP ports on your computer",
+	"author": "Henry W. [@henryjw] <3443648+henryjw@users.noreply.github.com> (https://github.com/henryjw)",
+	"author_markdown": "Henry W. [@henryjw] <3443648+henryjw@users.noreply.github.com> (https://github.com/henryjw)",
+	"author_url": "https://github.com/henryjw",
+	"github_nickname": "henryjw",
+	"github_repository_url": "github.com/henryjw/port-scanner-app",
+	"github_full_repository_url": "github.com/henryjw/port-scanner-app",
+	"email": "3443648+henryjw@users.noreply.github.com"
+}

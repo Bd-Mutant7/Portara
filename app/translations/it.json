@@ -1,0 +1,9 @@
+{
+	"contributions": {
+		"language": "Italian",
+		"license": "CC BY 4.0",
+		"contributors": ["Henry [@henryjw] <3443648+henryjw@users.noreply.github.com>"]
+	},
+	"app_name": "port-scanner",
+	"hello": "Ciao Mondo!"
+}
