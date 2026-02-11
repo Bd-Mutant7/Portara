@@ -1,25 +1,25 @@
 {
-	"name": "@henryjw/port-scanner",
-	"displayName": "Port Scanner",
+	"name": "@bd-mutant7/portara",
+	"displayName": "Portara",
 	"description": "Desktop app to scan for open TCP ports on your computer",
 	"version": "1.4.0",
 	"main": "dist/electron/electron/main.js",
 	"publishConfig": {
 		"access": "public"
 	},
-	"author": "Henry W. [@henryjw]",
+	"author": "Bd-Mutant7 [@Bd-Mutant7]",
 	"license": "MIT",
 	"license-docs": "CC BY 4.0",
 	"license-translations": "CC BY 4.0",
 	"license-images": "CC BY-NC 4.0",
-	"homepage": "https://github.com/henryjw/port-scanner-app",
+	"homepage": "https://github.com/bd-mutant7/portara",
 	"docs": "https://github.com/WeeeTeam/projectx-docs",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/henryjw/port-scanner-app.git"
+		"url": "https://github.com/bd-mutant7/portara.git"
 	},
 	"bugs": {
-		"url": "https://github.com/henryjw/port-scanner-app/issues"
+		"url": "https://github.com/bd-mutant7/portara/issues"
 	},
 	"engines": {
 		"node": "14.x.x"
@@ -127,7 +127,7 @@
 		"yargs": "^16.2.0"
 	},
 	"build": {
-		"productName": "Port Scanner",
+		"productName": "Portara",
 		"artifactName": "${productName}-${arch}.${ext}",
 		"directories": {
 			"output": "build",
@@ -177,8 +177,10 @@
 		"svelte-electron-spa",
 		"electron",
 		"electron-boilerplate",
-		"port-scanner",
+		"portara",
 		"boilerplate"
 	],
-	"contributors": []
+	"contributors": [
+		"Bd-Mutant7 [@Bd-Mutant7]"
+	]
 }
