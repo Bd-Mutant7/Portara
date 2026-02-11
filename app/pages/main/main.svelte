@@ -55,7 +55,7 @@
 			return processes;
 		} catch (err) {
 			console.error("Error getting processes", err);
-			scanError = `Error scanning processes: "${err.message}"`;
+			scanError = `Portara scan error: "${err.message}"`;
 		} 	finally {
 			isScanning = false;
 		}
@@ -94,7 +94,7 @@
 				disabled={!restrictedRangeEnabled}
 				on:change={e => updateSetting(SETTING_KEYS.endPort, e.target.value)}
 			/>
-			<button id="btn-scan" class="btn btn-primary" type="button" on:click={performScan} disabled={isScanning}>SCAN</button>
+			<button id="btn-scan" class="btn btn-primary" type="button" on:click={performScan} disabled={isScanning}>PORTARA SCAN</button>
 		</div>
 
 		<div hidden={!IS_WINDOWS}>
