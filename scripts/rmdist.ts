@@ -2,7 +2,7 @@
  * Delete dist folder
  * =====================
  *
- * @contributors: Henry W. [@henryjw]
+ * @contributors:  P_Kariuki007 [@bd-mutant7] 
  *
  * @license: MIT License
  *
