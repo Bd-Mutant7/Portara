@@ -4,7 +4,7 @@
  * =====================
  * Create electron window
  *
- * @contributors: Henry W. [@henryjw]
+ * @contributors: P_Kariuki007 [@bd-mutant7]
  *
  * @license: MIT License
  *
@@ -25,6 +25,7 @@ function createWindow() {
 			contextIsolation: true,
 		},
 		width: 1024,
+		title: "Portara"
 	});
 
 	if (config.debug) {
