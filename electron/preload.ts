@@ -2,7 +2,7 @@
  * Preload
  * =====================
  *
- * @contributors: Henry [@henryjw] <3443648+henryjw@users.noreply.github.com>
+ * @contributors: P_Kariuki007 [@Bd-Mutant7] < 182138871+bd-mutant7@users.noreply.github.com>
  *
  * @license: MIT License
  *
@@ -48,8 +48,8 @@ async function getProcessesUnix({ wsl = false }): Promise<Process[]> {
 
 		if (err.code == LSOF_EXIT_CODES.COMMAND_NOT_FOUND) {
 			const message = wsl
-				? "Failed to read WSL processes. Make sure `lsof` command is installed inside your distro."
-				: "Failed to read processes. Make sure `lsof` is installed.";
+				? "Portara cannot read WSL processes. Make sure `lsof` command is installed inside your distro."
+				: "Portara cannot read processes. Make sure `lsof` is installed.";
 
 			throw new Error(message);
 		}
