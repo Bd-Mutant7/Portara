@@ -6,8 +6,6 @@
  * =====================
  * Replace package name, authors, url with others values.
  *
- * @contributors: Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)
- *
  * @license: MIT License
  *
  */
