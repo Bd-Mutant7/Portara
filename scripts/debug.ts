@@ -3,7 +3,7 @@
  * =====================
  * Check if configs/config.js has debug to off
  *
- * @contributors: Henry W. [@henryjw]
+ * @contributors:  P_Kariuki007 [@Bd-Mutant7] 
  *
  * @license: MIT License
  *
