@@ -16,6 +16,78 @@ There are pre-built binaries in the [Releases](https://github.com/Bd-Mutant7/Por
 - Windows 	- `npm run build-win`
 - Linux 	- `npm run build-lnx`
 
+## 🔧 One-Line Setup (Windows)
+```bash
+git clone https://github.com/Bd-Mutant7/Portara.git
+cd Portara
+npm install
+npm run dev
+```
+## 💻 Platform-Specific Builds
+### 🪟 Windows
+```bash
+# Development mode
+npm run dev
+
+# Build standalone executable
+npm run build-win
+
+# Build 32-bit version
+npm run build-win-32bit
+```
+### 🍏 macOS
+```bash
+# Development mode
+npm run dev
+
+# Build for Intel (x64)
+npm run build-mac-x64
+
+# Build for Apple Silicon (M1/M2/arm64)
+npm run build-mac-arm64
+
+# Build and sign for distribution
+npm run release-mac-x64  # or release-mac-arm64
+```
+### 🐧 Linux
+```bash
+# Development mode
+npm run dev
+
+# Build (AppImage, deb, rpm)
+npm run build-lnx
+```
+### 📂 Output Location
+```text
+Portara/build/
+```
+Windows: 
+```sh 
+Portara-win32-x64/ or Portara Setup *.exe
+```
+macOS: 
+```sh
+Portara-dmg-x64/ or Portara-dmg-arm64/ with .dmg file
+```
+Linux: 
+```sh
+Portara-linux-x64/ with .AppImage, .deb, .rpm
+```
+## ⚡ Quick Start (After Install)
+```bash
+# 1. Clone
+git clone https://github.com/Bd-Mutant7/Portara.git
+
+# 2. Enter directory
+cd Portara
+
+# 3. Install dependencies
+npm install
+
+# 4. Launch dev version
+npm run dev
+```
+The app should open immediately! 🚀
 
 ### 📦Release scripts
 - MacOS (builds and signs macOS app) - `npm run release-mac-x64` | `npm run release-mac-arm64`
