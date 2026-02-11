@@ -24,10 +24,10 @@
 
 		if (terminated) {
 			console.debug(`Terminated process "${process.command}" (${process.id})`);
-			alert(`Process "${process.command}" terminated`);
+			alert(`Portara terminated process "${process.command}"`);
 			onProcessChange();
 		} else {
-			alert("Unable to terminate process");
+			alert("Portara was unable to terminate the process");
 		}
 	};
 
@@ -36,7 +36,7 @@
 
 		if (stopped) {
 			console.debug(`Stopped process "${process.command}" (${process.id})`);
-			alert(`Process "${process.command}" stopped`);
+			alert(`Portara stopped process "${process.command}"`);
 			onProcessChange();
 		} else {
 			const terminateProcessModal = Modal.getInstance(document.getElementById(terminateProcessModalId));
