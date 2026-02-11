@@ -2,8 +2,8 @@
 	"contributions": {
 		"language": "English",
 		"license": "CC BY 4.0",
-		"contributors": ["Henry [@henryjw] <3443648+henryjw@users.noreply.github.com>"]
+		"contributors": ["P_Kariuki007 [@bd-mutant7] <182138871+bd-mutant7@users.noreply.github.com>"]
 	},
-	"app_name": "port-scanner",
+	"app_name": "Portara",
 	"hello": "Hello World!"
 }
