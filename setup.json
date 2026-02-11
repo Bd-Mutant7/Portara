@@ -1,13 +1,13 @@
 {
-	"package_name": "port-scanner-app",
-	"package_org": "@henryjw",
-	"display_name": "Port Scanner",
+	"package_name": "portara",
+	"package_org": "@bd-mutant7",
+	"display_name": "Portara",
 	"description": "Desktop app to scan for open TCP ports on your computer",
-	"author": "Henry W. [@henryjw] <3443648+henryjw@users.noreply.github.com> (https://github.com/henryjw)",
-	"author_markdown": "Henry W. [@henryjw] <3443648+henryjw@users.noreply.github.com> (https://github.com/henryjw)",
-	"author_url": "https://github.com/henryjw",
-	"github_nickname": "henryjw",
-	"github_repository_url": "github.com/henryjw/port-scanner-app",
-	"github_full_repository_url": "github.com/henryjw/port-scanner-app",
-	"email": "3443648+henryjw@users.noreply.github.com"
+	"author": "Bd-Mutant7 [@Bd-Mutant7] <182138871+bd-mutant7@users.noreply.github.com> (https://github.com/bd-mutant7)",
+	"author_markdown": "Bd-Mutant7 [@Bd-Mutant7] <182138871+bd-mutant7@users.noreply.github.com> (https://github.com/bd-mutant7)",
+	"author_url": "https://github.com/Bd-Mutant7",
+	"github_nickname": "Bd-Mutant7",
+	"github_repository_url": "github.com/Bd-Mutant7/Portara",
+	"github_full_repository_url": "github.com/Bd-Mutant7/Portara",
+	"email": "182138871+bd-mutant7@users.noreply.github.com"
 }
