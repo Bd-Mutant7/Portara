@@ -1,5 +1,8 @@
 # Portara 🔍
 
+[![Support](https://img.shields.io/badge/Support-Paystack-00C3F7?style=for-the-badge&logo=paypal&logoColor=white)](https://paystack.shop/pay/bd-mutant7)
+
+
 ## 📋Overview 
 
 Portara scans for processes based on the network ports currently in use. The primary use case is to be able to easily scan for and terminate stray processes using development ports you need.
