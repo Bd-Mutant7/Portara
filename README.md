@@ -121,3 +121,7 @@ App shows an error alert when trying to terminate a WSL process even after succe
 If you click the SCAN button and the process disappears from the list, then it was terminated.
 
 Processes running within WSL v1 will not show up
+
+## Links
+
+[![Hypercommit](https://img.shields.io/badge/Hypercommit-DB2475)](https://hypercommit.com/portara)
